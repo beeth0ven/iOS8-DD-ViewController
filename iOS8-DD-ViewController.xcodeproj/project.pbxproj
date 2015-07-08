@@ -72,6 +72,8 @@
 		45ADFB621B4A488A004FCD31 /* DetailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB611B4A488A004FCD31 /* DetailCollectionViewController.swift */; };
 		45ADFB641B4A4906004FCD31 /* MyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB631B4A4906004FCD31 /* MyLayout.swift */; };
 		45ADFB661B4A4928004FCD31 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */; };
+		45ADFE641B4CE394004FCD31 /* DemoPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */; };
+		45ADFE661B4CE477004FCD31 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +156,8 @@
 		45ADFB611B4A488A004FCD31 /* DetailCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewController.swift; sourceTree = "<group>"; };
 		45ADFB631B4A4906004FCD31 /* MyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLayout.swift; sourceTree = "<group>"; };
 		45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
+		45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPopoverViewController.swift; sourceTree = "<group>"; };
+		45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,11 +205,13 @@
 				45ADFAC01B48FD06004FCD31 /* ScrollPagingViewController.swift */,
 				45ADFAC41B4906A5004FCD31 /* MyTableViewCell.swift */,
 				45ADFAC21B490588004FCD31 /* EditableTableViewController.swift */,
-				4593665B1B34288300F807B2 /* Main.storyboard */,
 				45ADFB5F1B4A487B004FCD31 /* MasterCollectionViewController.swift */,
 				45ADFB611B4A488A004FCD31 /* DetailCollectionViewController.swift */,
 				45ADFB631B4A4906004FCD31 /* MyLayout.swift */,
 				45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */,
+				4593665B1B34288300F807B2 /* Main.storyboard */,
+				45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */,
+				45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */,
 				4593665E1B34288300F807B2 /* Images.xcassets */,
 				459366601B34288300F807B2 /* LaunchScreen.xib */,
 				459366551B34288300F807B2 /* Supporting Files */,
@@ -448,12 +454,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ADFE641B4CE394004FCD31 /* DemoPopoverViewController.swift in Sources */,
 				45ADFAC31B490588004FCD31 /* EditableTableViewController.swift in Sources */,
 				45ADFB601B4A487B004FCD31 /* MasterCollectionViewController.swift in Sources */,
 				4593665A1B34288300F807B2 /* ViewController.swift in Sources */,
 				459366781B342B5600F807B2 /* TabBarPushAnimation.swift in Sources */,
 				45ADFAC11B48FD06004FCD31 /* ScrollPagingViewController.swift in Sources */,
 				45ADFB661B4A4928004FCD31 /* MyFlowLayout.swift in Sources */,
+				45ADFE661B4CE477004FCD31 /* FilterTableViewController.swift in Sources */,
 				45ADFB621B4A488A004FCD31 /* DetailCollectionViewController.swift in Sources */,
 				45ADFB641B4A4906004FCD31 /* MyLayout.swift in Sources */,
 				459366581B34288300F807B2 /* AppDelegate.swift in Sources */,
@@ -587,6 +595,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS8-DD-ViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -597,6 +606,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS8-DD-ViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
