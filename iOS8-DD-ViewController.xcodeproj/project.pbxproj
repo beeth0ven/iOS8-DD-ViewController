@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459366581B34288300F807B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459366571B34288300F807B2 /* AppDelegate.swift */; };
+		4593665A1B34288300F807B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459366591B34288300F807B2 /* ViewController.swift */; };
+		4593665D1B34288300F807B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4593665B1B34288300F807B2 /* Main.storyboard */; };
+		4593665F1B34288300F807B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4593665E1B34288300F807B2 /* Images.xcassets */; };
+		459366621B34288300F807B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459366601B34288300F807B2 /* LaunchScreen.xib */; };
+		4593666E1B34288400F807B2 /* iOS8_DD_ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593666D1B34288400F807B2 /* iOS8_DD_ViewControllerTests.swift */; };
+		459366781B342B5600F807B2 /* TabBarPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459366771B342B5600F807B2 /* TabBarPushAnimation.swift */; };
+		45ADFAC11B48FD06004FCD31 /* ScrollPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFAC01B48FD06004FCD31 /* ScrollPagingViewController.swift */; };
+		45ADFAC31B490588004FCD31 /* EditableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFAC21B490588004FCD31 /* EditableTableViewController.swift */; };
+		45ADFAC51B4906A5004FCD31 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFAC41B4906A5004FCD31 /* MyTableViewCell.swift */; };
+		45ADFAF91B4A46B8004FCD31 /* states.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFAF81B4A46B8004FCD31 /* states.txt */; };
+		45ADFB2C1B4A46CF004FCD31 /* flag_alabama.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFAFA1B4A46CF004FCD31 /* flag_alabama.gif */; };
+		45ADFB2D1B4A46CF004FCD31 /* flag_alaska.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFAFB1B4A46CF004FCD31 /* flag_alaska.gif */; };
+		45ADFB2E1B4A46CF004FCD31 /* flag_arizona.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFAFC1B4A46CF004FCD31 /* flag_arizona.gif */; };
+		45ADFB2F1B4A46CF004FCD31 /* flag_arkansas.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFAFD1B4A46CF004FCD31 /* flag_arkansas.gif */; };
+		45ADFB301B4A46CF004FCD31 /* flag_california.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFAFE1B4A46CF004FCD31 /* flag_california.gif */; };
+		45ADFB311B4A46CF004FCD31 /* flag_colorado.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFAFF1B4A46CF004FCD31 /* flag_colorado.gif */; };
+		45ADFB321B4A46CF004FCD31 /* flag_connecticut.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB001B4A46CF004FCD31 /* flag_connecticut.gif */; };
+		45ADFB331B4A46CF004FCD31 /* flag_delaware.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB011B4A46CF004FCD31 /* flag_delaware.gif */; };
+		45ADFB341B4A46CF004FCD31 /* flag_florida.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB021B4A46CF004FCD31 /* flag_florida.gif */; };
+		45ADFB351B4A46CF004FCD31 /* flag_georgia.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB031B4A46CF004FCD31 /* flag_georgia.gif */; };
+		45ADFB361B4A46CF004FCD31 /* flag_hawaii.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB041B4A46CF004FCD31 /* flag_hawaii.gif */; };
+		45ADFB371B4A46CF004FCD31 /* flag_idaho.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB051B4A46CF004FCD31 /* flag_idaho.gif */; };
+		45ADFB381B4A46CF004FCD31 /* flag_illinois.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB061B4A46CF004FCD31 /* flag_illinois.gif */; };
+		45ADFB391B4A46CF004FCD31 /* flag_indiana.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB071B4A46CF004FCD31 /* flag_indiana.gif */; };
+		45ADFB3A1B4A46CF004FCD31 /* flag_iowa.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB081B4A46CF004FCD31 /* flag_iowa.gif */; };
+		45ADFB3B1B4A46CF004FCD31 /* flag_kansas.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB091B4A46CF004FCD31 /* flag_kansas.gif */; };
+		45ADFB3C1B4A46CF004FCD31 /* flag_kentucky.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB0A1B4A46CF004FCD31 /* flag_kentucky.gif */; };
+		45ADFB3D1B4A46CF004FCD31 /* flag_louisiana.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB0B1B4A46CF004FCD31 /* flag_louisiana.gif */; };
+		45ADFB3E1B4A46CF004FCD31 /* flag_maine.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB0C1B4A46CF004FCD31 /* flag_maine.gif */; };
+		45ADFB3F1B4A46CF004FCD31 /* flag_maryland.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB0D1B4A46CF004FCD31 /* flag_maryland.gif */; };
+		45ADFB401B4A46CF004FCD31 /* flag_massachusetts.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB0E1B4A46CF004FCD31 /* flag_massachusetts.gif */; };
+		45ADFB411B4A46CF004FCD31 /* flag_michigan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB0F1B4A46CF004FCD31 /* flag_michigan.gif */; };
+		45ADFB421B4A46CF004FCD31 /* flag_minnesota.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB101B4A46CF004FCD31 /* flag_minnesota.gif */; };
+		45ADFB431B4A46CF004FCD31 /* flag_mississippi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB111B4A46CF004FCD31 /* flag_mississippi.gif */; };
+		45ADFB441B4A46CF004FCD31 /* flag_missouri.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB121B4A46CF004FCD31 /* flag_missouri.gif */; };
+		45ADFB451B4A46CF004FCD31 /* flag_montana.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB131B4A46CF004FCD31 /* flag_montana.gif */; };
+		45ADFB461B4A46CF004FCD31 /* flag_nebraska.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB141B4A46CF004FCD31 /* flag_nebraska.gif */; };
+		45ADFB471B4A46CF004FCD31 /* flag_nevada.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB151B4A46CF004FCD31 /* flag_nevada.gif */; };
+		45ADFB481B4A46CF004FCD31 /* flag_newhampshire.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB161B4A46CF004FCD31 /* flag_newhampshire.gif */; };
+		45ADFB491B4A46CF004FCD31 /* flag_newjersey.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB171B4A46CF004FCD31 /* flag_newjersey.gif */; };
+		45ADFB4A1B4A46CF004FCD31 /* flag_newmexico.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB181B4A46CF004FCD31 /* flag_newmexico.gif */; };
+		45ADFB4B1B4A46CF004FCD31 /* flag_newyork.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB191B4A46CF004FCD31 /* flag_newyork.gif */; };
+		45ADFB4C1B4A46CF004FCD31 /* flag_northcarolina.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB1A1B4A46CF004FCD31 /* flag_northcarolina.gif */; };
+		45ADFB4D1B4A46CF004FCD31 /* flag_northdakota.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB1B1B4A46CF004FCD31 /* flag_northdakota.gif */; };
+		45ADFB4E1B4A46CF004FCD31 /* flag_ohio.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB1C1B4A46CF004FCD31 /* flag_ohio.gif */; };
+		45ADFB4F1B4A46CF004FCD31 /* flag_oklahoma.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB1D1B4A46CF004FCD31 /* flag_oklahoma.gif */; };
+		45ADFB501B4A46CF004FCD31 /* flag_oregon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB1E1B4A46CF004FCD31 /* flag_oregon.gif */; };
+		45ADFB511B4A46CF004FCD31 /* flag_pennsylvania.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB1F1B4A46CF004FCD31 /* flag_pennsylvania.gif */; };
+		45ADFB521B4A46CF004FCD31 /* flag_rhodeisland.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB201B4A46CF004FCD31 /* flag_rhodeisland.gif */; };
+		45ADFB531B4A46CF004FCD31 /* flag_southcarolina.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB211B4A46CF004FCD31 /* flag_southcarolina.gif */; };
+		45ADFB541B4A46CF004FCD31 /* flag_southdakota.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB221B4A46CF004FCD31 /* flag_southdakota.gif */; };
+		45ADFB551B4A46CF004FCD31 /* flag_tennessee.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB231B4A46CF004FCD31 /* flag_tennessee.gif */; };
+		45ADFB561B4A46CF004FCD31 /* flag_texas.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB241B4A46CF004FCD31 /* flag_texas.gif */; };
+		45ADFB571B4A46CF004FCD31 /* flag_utah.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB251B4A46CF004FCD31 /* flag_utah.gif */; };
+		45ADFB581B4A46CF004FCD31 /* flag_vermont.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB261B4A46CF004FCD31 /* flag_vermont.gif */; };
+		45ADFB591B4A46CF004FCD31 /* flag_virginia.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB271B4A46CF004FCD31 /* flag_virginia.gif */; };
+		45ADFB5A1B4A46CF004FCD31 /* flag_washington.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB281B4A46CF004FCD31 /* flag_washington.gif */; };
+		45ADFB5B1B4A46CF004FCD31 /* flag_westvirginia.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB291B4A46CF004FCD31 /* flag_westvirginia.gif */; };
+		45ADFB5C1B4A46CF004FCD31 /* flag_wisconsin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB2A1B4A46CF004FCD31 /* flag_wisconsin.gif */; };
+		45ADFB5D1B4A46CF004FCD31 /* flag_wyoming.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45ADFB2B1B4A46CF004FCD31 /* flag_wyoming.gif */; };
+		45ADFB601B4A487B004FCD31 /* MasterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB5F1B4A487B004FCD31 /* MasterCollectionViewController.swift */; };
+		45ADFB621B4A488A004FCD31 /* DetailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB611B4A488A004FCD31 /* DetailCollectionViewController.swift */; };
+		45ADFB641B4A4906004FCD31 /* MyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB631B4A4906004FCD31 /* MyLayout.swift */; };
+		45ADFB661B4A4928004FCD31 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		459366681B34288400F807B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4593664A1B34288300F807B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459366511B34288300F807B2;
+			remoteInfo = "iOS8-DD-ViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		459366521B34288300F807B2 /* iOS8-DD-ViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8-DD-ViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		459366561B34288300F807B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459366571B34288300F807B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		459366591B34288300F807B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4593665C1B34288300F807B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4593665E1B34288300F807B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		459366611B34288300F807B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		459366671B34288400F807B2 /* iOS8-DD-ViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS8-DD-ViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4593666C1B34288400F807B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4593666D1B34288400F807B2 /* iOS8_DD_ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8_DD_ViewControllerTests.swift; sourceTree = "<group>"; };
+		459366771B342B5600F807B2 /* TabBarPushAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarPushAnimation.swift; sourceTree = "<group>"; };
+		45ADFAC01B48FD06004FCD31 /* ScrollPagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollPagingViewController.swift; sourceTree = "<group>"; };
+		45ADFAC21B490588004FCD31 /* EditableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableTableViewController.swift; sourceTree = "<group>"; };
+		45ADFAC41B4906A5004FCD31 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		45ADFAF81B4A46B8004FCD31 /* states.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = states.txt; sourceTree = "<group>"; };
+		45ADFAFA1B4A46CF004FCD31 /* flag_alabama.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_alabama.gif; sourceTree = "<group>"; };
+		45ADFAFB1B4A46CF004FCD31 /* flag_alaska.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_alaska.gif; sourceTree = "<group>"; };
+		45ADFAFC1B4A46CF004FCD31 /* flag_arizona.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_arizona.gif; sourceTree = "<group>"; };
+		45ADFAFD1B4A46CF004FCD31 /* flag_arkansas.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_arkansas.gif; sourceTree = "<group>"; };
+		45ADFAFE1B4A46CF004FCD31 /* flag_california.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_california.gif; sourceTree = "<group>"; };
+		45ADFAFF1B4A46CF004FCD31 /* flag_colorado.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_colorado.gif; sourceTree = "<group>"; };
+		45ADFB001B4A46CF004FCD31 /* flag_connecticut.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_connecticut.gif; sourceTree = "<group>"; };
+		45ADFB011B4A46CF004FCD31 /* flag_delaware.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_delaware.gif; sourceTree = "<group>"; };
+		45ADFB021B4A46CF004FCD31 /* flag_florida.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_florida.gif; sourceTree = "<group>"; };
+		45ADFB031B4A46CF004FCD31 /* flag_georgia.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_georgia.gif; sourceTree = "<group>"; };
+		45ADFB041B4A46CF004FCD31 /* flag_hawaii.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_hawaii.gif; sourceTree = "<group>"; };
+		45ADFB051B4A46CF004FCD31 /* flag_idaho.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_idaho.gif; sourceTree = "<group>"; };
+		45ADFB061B4A46CF004FCD31 /* flag_illinois.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_illinois.gif; sourceTree = "<group>"; };
+		45ADFB071B4A46CF004FCD31 /* flag_indiana.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_indiana.gif; sourceTree = "<group>"; };
+		45ADFB081B4A46CF004FCD31 /* flag_iowa.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_iowa.gif; sourceTree = "<group>"; };
+		45ADFB091B4A46CF004FCD31 /* flag_kansas.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_kansas.gif; sourceTree = "<group>"; };
+		45ADFB0A1B4A46CF004FCD31 /* flag_kentucky.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_kentucky.gif; sourceTree = "<group>"; };
+		45ADFB0B1B4A46CF004FCD31 /* flag_louisiana.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_louisiana.gif; sourceTree = "<group>"; };
+		45ADFB0C1B4A46CF004FCD31 /* flag_maine.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_maine.gif; sourceTree = "<group>"; };
+		45ADFB0D1B4A46CF004FCD31 /* flag_maryland.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_maryland.gif; sourceTree = "<group>"; };
+		45ADFB0E1B4A46CF004FCD31 /* flag_massachusetts.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_massachusetts.gif; sourceTree = "<group>"; };
+		45ADFB0F1B4A46CF004FCD31 /* flag_michigan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_michigan.gif; sourceTree = "<group>"; };
+		45ADFB101B4A46CF004FCD31 /* flag_minnesota.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_minnesota.gif; sourceTree = "<group>"; };
+		45ADFB111B4A46CF004FCD31 /* flag_mississippi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_mississippi.gif; sourceTree = "<group>"; };
+		45ADFB121B4A46CF004FCD31 /* flag_missouri.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_missouri.gif; sourceTree = "<group>"; };
+		45ADFB131B4A46CF004FCD31 /* flag_montana.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_montana.gif; sourceTree = "<group>"; };
+		45ADFB141B4A46CF004FCD31 /* flag_nebraska.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_nebraska.gif; sourceTree = "<group>"; };
+		45ADFB151B4A46CF004FCD31 /* flag_nevada.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_nevada.gif; sourceTree = "<group>"; };
+		45ADFB161B4A46CF004FCD31 /* flag_newhampshire.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_newhampshire.gif; sourceTree = "<group>"; };
+		45ADFB171B4A46CF004FCD31 /* flag_newjersey.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_newjersey.gif; sourceTree = "<group>"; };
+		45ADFB181B4A46CF004FCD31 /* flag_newmexico.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_newmexico.gif; sourceTree = "<group>"; };
+		45ADFB191B4A46CF004FCD31 /* flag_newyork.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_newyork.gif; sourceTree = "<group>"; };
+		45ADFB1A1B4A46CF004FCD31 /* flag_northcarolina.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_northcarolina.gif; sourceTree = "<group>"; };
+		45ADFB1B1B4A46CF004FCD31 /* flag_northdakota.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_northdakota.gif; sourceTree = "<group>"; };
+		45ADFB1C1B4A46CF004FCD31 /* flag_ohio.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_ohio.gif; sourceTree = "<group>"; };
+		45ADFB1D1B4A46CF004FCD31 /* flag_oklahoma.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_oklahoma.gif; sourceTree = "<group>"; };
+		45ADFB1E1B4A46CF004FCD31 /* flag_oregon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_oregon.gif; sourceTree = "<group>"; };
+		45ADFB1F1B4A46CF004FCD31 /* flag_pennsylvania.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_pennsylvania.gif; sourceTree = "<group>"; };
+		45ADFB201B4A46CF004FCD31 /* flag_rhodeisland.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_rhodeisland.gif; sourceTree = "<group>"; };
+		45ADFB211B4A46CF004FCD31 /* flag_southcarolina.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_southcarolina.gif; sourceTree = "<group>"; };
+		45ADFB221B4A46CF004FCD31 /* flag_southdakota.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_southdakota.gif; sourceTree = "<group>"; };
+		45ADFB231B4A46CF004FCD31 /* flag_tennessee.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_tennessee.gif; sourceTree = "<group>"; };
+		45ADFB241B4A46CF004FCD31 /* flag_texas.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_texas.gif; sourceTree = "<group>"; };
+		45ADFB251B4A46CF004FCD31 /* flag_utah.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_utah.gif; sourceTree = "<group>"; };
+		45ADFB261B4A46CF004FCD31 /* flag_vermont.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_vermont.gif; sourceTree = "<group>"; };
+		45ADFB271B4A46CF004FCD31 /* flag_virginia.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_virginia.gif; sourceTree = "<group>"; };
+		45ADFB281B4A46CF004FCD31 /* flag_washington.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_washington.gif; sourceTree = "<group>"; };
+		45ADFB291B4A46CF004FCD31 /* flag_westvirginia.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_westvirginia.gif; sourceTree = "<group>"; };
+		45ADFB2A1B4A46CF004FCD31 /* flag_wisconsin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_wisconsin.gif; sourceTree = "<group>"; };
+		45ADFB2B1B4A46CF004FCD31 /* flag_wyoming.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flag_wyoming.gif; sourceTree = "<group>"; };
+		45ADFB5F1B4A487B004FCD31 /* MasterCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterCollectionViewController.swift; sourceTree = "<group>"; };
+		45ADFB611B4A488A004FCD31 /* DetailCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewController.swift; sourceTree = "<group>"; };
+		45ADFB631B4A4906004FCD31 /* MyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLayout.swift; sourceTree = "<group>"; };
+		45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4593664F1B34288300F807B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459366641B34288400F807B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		459366491B34288300F807B2 = {
+			isa = PBXGroup;
+			children = (
+				459366541B34288300F807B2 /* iOS8-DD-ViewController */,
+				4593666A1B34288400F807B2 /* iOS8-DD-ViewControllerTests */,
+				459366531B34288300F807B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		459366531B34288300F807B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				459366521B34288300F807B2 /* iOS8-DD-ViewController.app */,
+				459366671B34288400F807B2 /* iOS8-DD-ViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		459366541B34288300F807B2 /* iOS8-DD-ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				459366571B34288300F807B2 /* AppDelegate.swift */,
+				459366591B34288300F807B2 /* ViewController.swift */,
+				459366771B342B5600F807B2 /* TabBarPushAnimation.swift */,
+				45ADFAC01B48FD06004FCD31 /* ScrollPagingViewController.swift */,
+				45ADFAC41B4906A5004FCD31 /* MyTableViewCell.swift */,
+				45ADFAC21B490588004FCD31 /* EditableTableViewController.swift */,
+				4593665B1B34288300F807B2 /* Main.storyboard */,
+				45ADFB5F1B4A487B004FCD31 /* MasterCollectionViewController.swift */,
+				45ADFB611B4A488A004FCD31 /* DetailCollectionViewController.swift */,
+				45ADFB631B4A4906004FCD31 /* MyLayout.swift */,
+				45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */,
+				4593665E1B34288300F807B2 /* Images.xcassets */,
+				459366601B34288300F807B2 /* LaunchScreen.xib */,
+				459366551B34288300F807B2 /* Supporting Files */,
+			);
+			path = "iOS8-DD-ViewController";
+			sourceTree = "<group>";
+		};
+		459366551B34288300F807B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45ADFAF81B4A46B8004FCD31 /* states.txt */,
+				45ADFB5E1B4A46D5004FCD31 /* Flags */,
+				459366561B34288300F807B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4593666A1B34288400F807B2 /* iOS8-DD-ViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4593666D1B34288400F807B2 /* iOS8_DD_ViewControllerTests.swift */,
+				4593666B1B34288400F807B2 /* Supporting Files */,
+			);
+			path = "iOS8-DD-ViewControllerTests";
+			sourceTree = "<group>";
+		};
+		4593666B1B34288400F807B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4593666C1B34288400F807B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45ADFB5E1B4A46D5004FCD31 /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				45ADFAFA1B4A46CF004FCD31 /* flag_alabama.gif */,
+				45ADFAFB1B4A46CF004FCD31 /* flag_alaska.gif */,
+				45ADFAFC1B4A46CF004FCD31 /* flag_arizona.gif */,
+				45ADFAFD1B4A46CF004FCD31 /* flag_arkansas.gif */,
+				45ADFAFE1B4A46CF004FCD31 /* flag_california.gif */,
+				45ADFAFF1B4A46CF004FCD31 /* flag_colorado.gif */,
+				45ADFB001B4A46CF004FCD31 /* flag_connecticut.gif */,
+				45ADFB011B4A46CF004FCD31 /* flag_delaware.gif */,
+				45ADFB021B4A46CF004FCD31 /* flag_florida.gif */,
+				45ADFB031B4A46CF004FCD31 /* flag_georgia.gif */,
+				45ADFB041B4A46CF004FCD31 /* flag_hawaii.gif */,
+				45ADFB051B4A46CF004FCD31 /* flag_idaho.gif */,
+				45ADFB061B4A46CF004FCD31 /* flag_illinois.gif */,
+				45ADFB071B4A46CF004FCD31 /* flag_indiana.gif */,
+				45ADFB081B4A46CF004FCD31 /* flag_iowa.gif */,
+				45ADFB091B4A46CF004FCD31 /* flag_kansas.gif */,
+				45ADFB0A1B4A46CF004FCD31 /* flag_kentucky.gif */,
+				45ADFB0B1B4A46CF004FCD31 /* flag_louisiana.gif */,
+				45ADFB0C1B4A46CF004FCD31 /* flag_maine.gif */,
+				45ADFB0D1B4A46CF004FCD31 /* flag_maryland.gif */,
+				45ADFB0E1B4A46CF004FCD31 /* flag_massachusetts.gif */,
+				45ADFB0F1B4A46CF004FCD31 /* flag_michigan.gif */,
+				45ADFB101B4A46CF004FCD31 /* flag_minnesota.gif */,
+				45ADFB111B4A46CF004FCD31 /* flag_mississippi.gif */,
+				45ADFB121B4A46CF004FCD31 /* flag_missouri.gif */,
+				45ADFB131B4A46CF004FCD31 /* flag_montana.gif */,
+				45ADFB141B4A46CF004FCD31 /* flag_nebraska.gif */,
+				45ADFB151B4A46CF004FCD31 /* flag_nevada.gif */,
+				45ADFB161B4A46CF004FCD31 /* flag_newhampshire.gif */,
+				45ADFB171B4A46CF004FCD31 /* flag_newjersey.gif */,
+				45ADFB181B4A46CF004FCD31 /* flag_newmexico.gif */,
+				45ADFB191B4A46CF004FCD31 /* flag_newyork.gif */,
+				45ADFB1A1B4A46CF004FCD31 /* flag_northcarolina.gif */,
+				45ADFB1B1B4A46CF004FCD31 /* flag_northdakota.gif */,
+				45ADFB1C1B4A46CF004FCD31 /* flag_ohio.gif */,
+				45ADFB1D1B4A46CF004FCD31 /* flag_oklahoma.gif */,
+				45ADFB1E1B4A46CF004FCD31 /* flag_oregon.gif */,
+				45ADFB1F1B4A46CF004FCD31 /* flag_pennsylvania.gif */,
+				45ADFB201B4A46CF004FCD31 /* flag_rhodeisland.gif */,
+				45ADFB211B4A46CF004FCD31 /* flag_southcarolina.gif */,
+				45ADFB221B4A46CF004FCD31 /* flag_southdakota.gif */,
+				45ADFB231B4A46CF004FCD31 /* flag_tennessee.gif */,
+				45ADFB241B4A46CF004FCD31 /* flag_texas.gif */,
+				45ADFB251B4A46CF004FCD31 /* flag_utah.gif */,
+				45ADFB261B4A46CF004FCD31 /* flag_vermont.gif */,
+				45ADFB271B4A46CF004FCD31 /* flag_virginia.gif */,
+				45ADFB281B4A46CF004FCD31 /* flag_washington.gif */,
+				45ADFB291B4A46CF004FCD31 /* flag_westvirginia.gif */,
+				45ADFB2A1B4A46CF004FCD31 /* flag_wisconsin.gif */,
+				45ADFB2B1B4A46CF004FCD31 /* flag_wyoming.gif */,
+			);
+			name = Flags;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		459366511B34288300F807B2 /* iOS8-DD-ViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459366711B34288400F807B2 /* Build configuration list for PBXNativeTarget "iOS8-DD-ViewController" */;
+			buildPhases = (
+				4593664E1B34288300F807B2 /* Sources */,
+				4593664F1B34288300F807B2 /* Frameworks */,
+				459366501B34288300F807B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS8-DD-ViewController";
+			productName = "iOS8-DD-ViewController";
+			productReference = 459366521B34288300F807B2 /* iOS8-DD-ViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		459366661B34288400F807B2 /* iOS8-DD-ViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459366741B34288400F807B2 /* Build configuration list for PBXNativeTarget "iOS8-DD-ViewControllerTests" */;
+			buildPhases = (
+				459366631B34288400F807B2 /* Sources */,
+				459366641B34288400F807B2 /* Frameworks */,
+				459366651B34288400F807B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				459366691B34288400F807B2 /* PBXTargetDependency */,
+			);
+			name = "iOS8-DD-ViewControllerTests";
+			productName = "iOS8-DD-ViewControllerTests";
+			productReference = 459366671B34288400F807B2 /* iOS8-DD-ViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4593664A1B34288300F807B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = luojie;
+				TargetAttributes = {
+					459366511B34288300F807B2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					459366661B34288400F807B2 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 459366511B34288300F807B2;
+					};
+				};
+			};
+			buildConfigurationList = 4593664D1B34288300F807B2 /* Build configuration list for PBXProject "iOS8-DD-ViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 459366491B34288300F807B2;
+			productRefGroup = 459366531B34288300F807B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				459366511B34288300F807B2 /* iOS8-DD-ViewController */,
+				459366661B34288400F807B2 /* iOS8-DD-ViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		459366501B34288300F807B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ADFB511B4A46CF004FCD31 /* flag_pennsylvania.gif in Resources */,
+				45ADFB411B4A46CF004FCD31 /* flag_michigan.gif in Resources */,
+				45ADFB3A1B4A46CF004FCD31 /* flag_iowa.gif in Resources */,
+				45ADFB3B1B4A46CF004FCD31 /* flag_kansas.gif in Resources */,
+				45ADFB371B4A46CF004FCD31 /* flag_idaho.gif in Resources */,
+				45ADFB4B1B4A46CF004FCD31 /* flag_newyork.gif in Resources */,
+				45ADFB321B4A46CF004FCD31 /* flag_connecticut.gif in Resources */,
+				45ADFB2E1B4A46CF004FCD31 /* flag_arizona.gif in Resources */,
+				45ADFB481B4A46CF004FCD31 /* flag_newhampshire.gif in Resources */,
+				45ADFB491B4A46CF004FCD31 /* flag_newjersey.gif in Resources */,
+				45ADFB391B4A46CF004FCD31 /* flag_indiana.gif in Resources */,
+				45ADFB451B4A46CF004FCD31 /* flag_montana.gif in Resources */,
+				45ADFB3D1B4A46CF004FCD31 /* flag_louisiana.gif in Resources */,
+				45ADFAF91B4A46B8004FCD31 /* states.txt in Resources */,
+				45ADFB381B4A46CF004FCD31 /* flag_illinois.gif in Resources */,
+				45ADFB531B4A46CF004FCD31 /* flag_southcarolina.gif in Resources */,
+				45ADFB351B4A46CF004FCD31 /* flag_georgia.gif in Resources */,
+				45ADFB591B4A46CF004FCD31 /* flag_virginia.gif in Resources */,
+				45ADFB2F1B4A46CF004FCD31 /* flag_arkansas.gif in Resources */,
+				45ADFB2D1B4A46CF004FCD31 /* flag_alaska.gif in Resources */,
+				45ADFB551B4A46CF004FCD31 /* flag_tennessee.gif in Resources */,
+				45ADFB501B4A46CF004FCD31 /* flag_oregon.gif in Resources */,
+				45ADFB3C1B4A46CF004FCD31 /* flag_kentucky.gif in Resources */,
+				45ADFB2C1B4A46CF004FCD31 /* flag_alabama.gif in Resources */,
+				45ADFB4E1B4A46CF004FCD31 /* flag_ohio.gif in Resources */,
+				45ADFB461B4A46CF004FCD31 /* flag_nebraska.gif in Resources */,
+				45ADFB5C1B4A46CF004FCD31 /* flag_wisconsin.gif in Resources */,
+				45ADFB4D1B4A46CF004FCD31 /* flag_northdakota.gif in Resources */,
+				45ADFB401B4A46CF004FCD31 /* flag_massachusetts.gif in Resources */,
+				45ADFB3F1B4A46CF004FCD31 /* flag_maryland.gif in Resources */,
+				45ADFB571B4A46CF004FCD31 /* flag_utah.gif in Resources */,
+				45ADFB5D1B4A46CF004FCD31 /* flag_wyoming.gif in Resources */,
+				45ADFB3E1B4A46CF004FCD31 /* flag_maine.gif in Resources */,
+				45ADFB361B4A46CF004FCD31 /* flag_hawaii.gif in Resources */,
+				45ADFB301B4A46CF004FCD31 /* flag_california.gif in Resources */,
+				45ADFB341B4A46CF004FCD31 /* flag_florida.gif in Resources */,
+				45ADFB5B1B4A46CF004FCD31 /* flag_westvirginia.gif in Resources */,
+				4593665D1B34288300F807B2 /* Main.storyboard in Resources */,
+				45ADFB561B4A46CF004FCD31 /* flag_texas.gif in Resources */,
+				45ADFB441B4A46CF004FCD31 /* flag_missouri.gif in Resources */,
+				45ADFB311B4A46CF004FCD31 /* flag_colorado.gif in Resources */,
+				45ADFB421B4A46CF004FCD31 /* flag_minnesota.gif in Resources */,
+				45ADFB471B4A46CF004FCD31 /* flag_nevada.gif in Resources */,
+				459366621B34288300F807B2 /* LaunchScreen.xib in Resources */,
+				45ADFB521B4A46CF004FCD31 /* flag_rhodeisland.gif in Resources */,
+				45ADFB4F1B4A46CF004FCD31 /* flag_oklahoma.gif in Resources */,
+				45ADFB5A1B4A46CF004FCD31 /* flag_washington.gif in Resources */,
+				45ADFB581B4A46CF004FCD31 /* flag_vermont.gif in Resources */,
+				4593665F1B34288300F807B2 /* Images.xcassets in Resources */,
+				45ADFB431B4A46CF004FCD31 /* flag_mississippi.gif in Resources */,
+				45ADFB4A1B4A46CF004FCD31 /* flag_newmexico.gif in Resources */,
+				45ADFB541B4A46CF004FCD31 /* flag_southdakota.gif in Resources */,
+				45ADFB331B4A46CF004FCD31 /* flag_delaware.gif in Resources */,
+				45ADFB4C1B4A46CF004FCD31 /* flag_northcarolina.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459366651B34288400F807B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4593664E1B34288300F807B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ADFAC31B490588004FCD31 /* EditableTableViewController.swift in Sources */,
+				45ADFB601B4A487B004FCD31 /* MasterCollectionViewController.swift in Sources */,
+				4593665A1B34288300F807B2 /* ViewController.swift in Sources */,
+				459366781B342B5600F807B2 /* TabBarPushAnimation.swift in Sources */,
+				45ADFAC11B48FD06004FCD31 /* ScrollPagingViewController.swift in Sources */,
+				45ADFB661B4A4928004FCD31 /* MyFlowLayout.swift in Sources */,
+				45ADFB621B4A488A004FCD31 /* DetailCollectionViewController.swift in Sources */,
+				45ADFB641B4A4906004FCD31 /* MyLayout.swift in Sources */,
+				459366581B34288300F807B2 /* AppDelegate.swift in Sources */,
+				45ADFAC51B4906A5004FCD31 /* MyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459366631B34288400F807B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4593666E1B34288400F807B2 /* iOS8_DD_ViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		459366691B34288400F807B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 459366511B34288300F807B2 /* iOS8-DD-ViewController */;
+			targetProxy = 459366681B34288400F807B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4593665B1B34288300F807B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4593665C1B34288300F807B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		459366601B34288300F807B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459366611B34288300F807B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4593666F1B34288400F807B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		459366701B34288400F807B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		459366721B34288400F807B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS8-DD-ViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		459366731B34288400F807B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS8-DD-ViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		459366751B34288400F807B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS8-DD-ViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8-DD-ViewController.app/iOS8-DD-ViewController";
+			};
+			name = Debug;
+		};
+		459366761B34288400F807B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS8-DD-ViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8-DD-ViewController.app/iOS8-DD-ViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4593664D1B34288300F807B2 /* Build configuration list for PBXProject "iOS8-DD-ViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4593666F1B34288400F807B2 /* Debug */,
+				459366701B34288400F807B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459366711B34288400F807B2 /* Build configuration list for PBXNativeTarget "iOS8-DD-ViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459366721B34288400F807B2 /* Debug */,
+				459366731B34288400F807B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459366741B34288400F807B2 /* Build configuration list for PBXNativeTarget "iOS8-DD-ViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459366751B34288400F807B2 /* Debug */,
+				459366761B34288400F807B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4593664A1B34288300F807B2 /* Project object */;
+}
