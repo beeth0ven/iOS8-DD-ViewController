@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		458D82541B54EF280010F3BF /* ImageTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D82531B54EF280010F3BF /* ImageTextViewController.swift */; };
+		458D82571B54EF700010F3BF /* peppers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 458D82551B54EF700010F3BF /* peppers.jpg */; };
+		458D82581B54EF700010F3BF /* onion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 458D82561B54EF700010F3BF /* onion.jpg */; };
+		458D825B1B54F0140010F3BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458D825A1B54F0140010F3BF /* Foundation.framework */; };
+		458D825D1B54F0270010F3BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458D825C1B54F0270010F3BF /* CoreGraphics.framework */; };
+		458D825F1B54F0340010F3BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458D825E1B54F0340010F3BF /* UIKit.framework */; };
 		459366581B34288300F807B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459366571B34288300F807B2 /* AppDelegate.swift */; };
 		4593665A1B34288300F807B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459366591B34288300F807B2 /* ViewController.swift */; };
 		4593665D1B34288300F807B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4593665B1B34288300F807B2 /* Main.storyboard */; };
@@ -87,6 +93,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		458D82531B54EF280010F3BF /* ImageTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextViewController.swift; sourceTree = "<group>"; };
+		458D82551B54EF700010F3BF /* peppers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peppers.jpg; sourceTree = "<group>"; };
+		458D82561B54EF700010F3BF /* onion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onion.jpg; sourceTree = "<group>"; };
+		458D825A1B54F0140010F3BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		458D825C1B54F0270010F3BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		458D825E1B54F0340010F3BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		459366521B34288300F807B2 /* iOS8-DD-ViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8-DD-ViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		459366561B34288300F807B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		459366571B34288300F807B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +177,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				458D825F1B54F0340010F3BF /* UIKit.framework in Frameworks */,
+				458D825D1B54F0270010F3BF /* CoreGraphics.framework in Frameworks */,
+				458D825B1B54F0140010F3BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +193,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		458D82591B54EF810010F3BF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				45ADFB5E1B4A46D5004FCD31 /* Flags */,
+				458D82551B54EF700010F3BF /* peppers.jpg */,
+				458D82561B54EF700010F3BF /* onion.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		458D82601B54F0460010F3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				458D825E1B54F0340010F3BF /* UIKit.framework */,
+				458D825C1B54F0270010F3BF /* CoreGraphics.framework */,
+				458D825A1B54F0140010F3BF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		459366491B34288300F807B2 = {
 			isa = PBXGroup;
 			children = (
@@ -209,11 +244,13 @@
 				45ADFB611B4A488A004FCD31 /* DetailCollectionViewController.swift */,
 				45ADFB631B4A4906004FCD31 /* MyLayout.swift */,
 				45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */,
-				4593665B1B34288300F807B2 /* Main.storyboard */,
 				45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */,
 				45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */,
+				4593665B1B34288300F807B2 /* Main.storyboard */,
+				458D82531B54EF280010F3BF /* ImageTextViewController.swift */,
 				4593665E1B34288300F807B2 /* Images.xcassets */,
 				459366601B34288300F807B2 /* LaunchScreen.xib */,
+				458D82601B54F0460010F3BF /* Frameworks */,
 				459366551B34288300F807B2 /* Supporting Files */,
 			);
 			path = "iOS8-DD-ViewController";
@@ -223,7 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				45ADFAF81B4A46B8004FCD31 /* states.txt */,
-				45ADFB5E1B4A46D5004FCD31 /* Flags */,
+				458D82591B54EF810010F3BF /* Image */,
 				459366561B34288300F807B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -391,6 +428,7 @@
 				45ADFB4B1B4A46CF004FCD31 /* flag_newyork.gif in Resources */,
 				45ADFB321B4A46CF004FCD31 /* flag_connecticut.gif in Resources */,
 				45ADFB2E1B4A46CF004FCD31 /* flag_arizona.gif in Resources */,
+				458D82571B54EF700010F3BF /* peppers.jpg in Resources */,
 				45ADFB481B4A46CF004FCD31 /* flag_newhampshire.gif in Resources */,
 				45ADFB491B4A46CF004FCD31 /* flag_newjersey.gif in Resources */,
 				45ADFB391B4A46CF004FCD31 /* flag_indiana.gif in Resources */,
@@ -433,6 +471,7 @@
 				45ADFB581B4A46CF004FCD31 /* flag_vermont.gif in Resources */,
 				4593665F1B34288300F807B2 /* Images.xcassets in Resources */,
 				45ADFB431B4A46CF004FCD31 /* flag_mississippi.gif in Resources */,
+				458D82581B54EF700010F3BF /* onion.jpg in Resources */,
 				45ADFB4A1B4A46CF004FCD31 /* flag_newmexico.gif in Resources */,
 				45ADFB541B4A46CF004FCD31 /* flag_southdakota.gif in Resources */,
 				45ADFB331B4A46CF004FCD31 /* flag_delaware.gif in Resources */,
@@ -456,6 +495,7 @@
 			files = (
 				45ADFE641B4CE394004FCD31 /* DemoPopoverViewController.swift in Sources */,
 				45ADFAC31B490588004FCD31 /* EditableTableViewController.swift in Sources */,
+				458D82541B54EF280010F3BF /* ImageTextViewController.swift in Sources */,
 				45ADFB601B4A487B004FCD31 /* MasterCollectionViewController.swift in Sources */,
 				4593665A1B34288300F807B2 /* ViewController.swift in Sources */,
 				459366781B342B5600F807B2 /* TabBarPushAnimation.swift in Sources */,
