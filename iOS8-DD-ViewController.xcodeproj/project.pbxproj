@@ -80,6 +80,7 @@
 		45ADFB661B4A4928004FCD31 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */; };
 		45ADFE641B4CE394004FCD31 /* DemoPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */; };
 		45ADFE661B4CE477004FCD31 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */; };
+		45DD68F61B5616EE00812FC1 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +171,7 @@
 		45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
 		45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPopoverViewController.swift; sourceTree = "<group>"; };
 		45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,10 +248,10 @@
 				45ADFB651B4A4928004FCD31 /* MyFlowLayout.swift */,
 				45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */,
 				45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */,
-				4593665B1B34288300F807B2 /* Main.storyboard */,
 				458D82531B54EF280010F3BF /* ImageTextViewController.swift */,
+				4593665B1B34288300F807B2 /* Main.storyboard */,
+				45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */,
 				4593665E1B34288300F807B2 /* Images.xcassets */,
-				459366601B34288300F807B2 /* LaunchScreen.xib */,
 				458D82601B54F0460010F3BF /* Frameworks */,
 				459366551B34288300F807B2 /* Supporting Files */,
 			);
@@ -259,6 +261,7 @@
 		459366551B34288300F807B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				459366601B34288300F807B2 /* LaunchScreen.xib */,
 				45ADFAF81B4A46B8004FCD31 /* states.txt */,
 				458D82591B54EF810010F3BF /* Image */,
 				459366561B34288300F807B2 /* Info.plist */,
@@ -493,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DD68F61B5616EE00812FC1 /* SearchBarViewController.swift in Sources */,
 				45ADFE641B4CE394004FCD31 /* DemoPopoverViewController.swift in Sources */,
 				45ADFAC31B490588004FCD31 /* EditableTableViewController.swift in Sources */,
 				458D82541B54EF280010F3BF /* ImageTextViewController.swift in Sources */,
