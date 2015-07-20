@@ -82,6 +82,7 @@
 		45ADFE661B4CE477004FCD31 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */; };
 		45DD68F61B5616EE00812FC1 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */; };
 		45DD68FE1B562A1000812FC1 /* MyShrinkingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD68FD1B562A1000812FC1 /* MyShrinkingButton.swift */; };
+		45F5AEEF1B5CC60500AEBEA8 /* MyKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5AEEE1B5CC60500AEBEA8 /* MyKnob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,7 @@
 		45ADFE651B4CE477004FCD31 /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
 		45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		45DD68FD1B562A1000812FC1 /* MyShrinkingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyShrinkingButton.swift; sourceTree = "<group>"; };
+		45F5AEEE1B5CC60500AEBEA8 /* MyKnob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKnob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,8 +254,9 @@
 				45ADFE631B4CE394004FCD31 /* DemoPopoverViewController.swift */,
 				458D82531B54EF280010F3BF /* ImageTextViewController.swift */,
 				45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */,
-				4593665B1B34288300F807B2 /* Main.storyboard */,
 				45DD68FD1B562A1000812FC1 /* MyShrinkingButton.swift */,
+				4593665B1B34288300F807B2 /* Main.storyboard */,
+				45F5AEEE1B5CC60500AEBEA8 /* MyKnob.swift */,
 				4593665E1B34288300F807B2 /* Images.xcassets */,
 				458D82601B54F0460010F3BF /* Frameworks */,
 				459366551B34288300F807B2 /* Supporting Files */,
@@ -506,6 +509,7 @@
 				458D82541B54EF280010F3BF /* ImageTextViewController.swift in Sources */,
 				45ADFB601B4A487B004FCD31 /* MasterCollectionViewController.swift in Sources */,
 				4593665A1B34288300F807B2 /* ViewController.swift in Sources */,
+				45F5AEEF1B5CC60500AEBEA8 /* MyKnob.swift in Sources */,
 				459366781B342B5600F807B2 /* TabBarPushAnimation.swift in Sources */,
 				45ADFAC11B48FD06004FCD31 /* ScrollPagingViewController.swift in Sources */,
 				45ADFB661B4A4928004FCD31 /* MyFlowLayout.swift in Sources */,
