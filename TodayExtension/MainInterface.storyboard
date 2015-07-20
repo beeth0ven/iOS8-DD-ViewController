@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="TodayExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="118"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
+                                <rect key="frame" x="20" y="8" width="280" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGo-XX-Vru">
+                                <rect key="frame" x="104" y="37" width="113" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.74117647060000003" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title=" In Five Minutes ">
+                                    <color key="titleColor" red="0.92120724919999997" green="0.84832113980000001" blue="0.62377804520000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="OFZ-Ls-8FM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVU-FO-8iS">
+                                <rect key="frame" x="95" y="75" width="131" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.74117647060000003" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title=" In Fifteen Minutes ">
+                                    <color key="titleColor" red="0.92120724919999997" green="0.84832113980000001" blue="0.62377804520000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="nZe-FW-26A"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="knob" translatesAutoresizingMaskIntoConstraints="NO" id="4D0-nZ-gdr">
+                                <rect key="frame" x="16" y="45" width="60" height="60"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="BzJ-Rh-gRC"/>
+                                    <constraint firstAttribute="width" constant="60" id="cW8-S5-S3A"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <constraints>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="bVU-FO-8iS" secondAttribute="bottom" constant="13" id="3fc-Nd-cfy"/>
+                            <constraint firstItem="bVU-FO-8iS" firstAttribute="top" secondItem="hGo-XX-Vru" secondAttribute="bottom" constant="8" id="4aP-Ma-d5R"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="20" symbolic="YES" id="6Vq-gs-PHe"/>
+                            <constraint firstItem="hGo-XX-Vru" firstAttribute="centerX" secondItem="GcN-lo-r42" secondAttribute="centerX" id="AzF-KV-aor"/>
+                            <constraint firstItem="hGo-XX-Vru" firstAttribute="top" secondItem="GcN-lo-r42" secondAttribute="bottom" constant="8" symbolic="YES" id="GnJ-Hh-pqe"/>
+                            <constraint firstAttribute="trailing" secondItem="GcN-lo-r42" secondAttribute="trailing" constant="20" symbolic="YES" id="L8K-9R-egU"/>
+                            <constraint firstItem="bVU-FO-8iS" firstAttribute="centerX" secondItem="hGo-XX-Vru" secondAttribute="centerX" id="MDM-dT-TfQ"/>
+                            <constraint firstItem="bVU-FO-8iS" firstAttribute="bottom" secondItem="4D0-nZ-gdr" secondAttribute="bottom" id="UiL-WN-bM8"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" symbolic="YES" id="mYS-Cv-VNx"/>
+                            <constraint firstItem="4D0-nZ-gdr" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="n62-YU-Ocs"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="bVU-FO-8iS" secondAttribute="bottom" constant="13" id="xr4-fb-KKI"/>
+                            <constraint firstAttribute="centerX" secondItem="GcN-lo-r42" secondAttribute="centerX" id="y7b-AG-1U2"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="118"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="knob" width="265" height="265"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

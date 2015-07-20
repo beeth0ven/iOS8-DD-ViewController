@@ -83,6 +83,12 @@
 		45DD68F61B5616EE00812FC1 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */; };
 		45DD68FE1B562A1000812FC1 /* MyShrinkingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD68FD1B562A1000812FC1 /* MyShrinkingButton.swift */; };
 		45F5AEEF1B5CC60500AEBEA8 /* MyKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5AEEE1B5CC60500AEBEA8 /* MyKnob.swift */; };
+		45F5AEF71B5CD72E00AEBEA8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F5AEF61B5CD72E00AEBEA8 /* NotificationCenter.framework */; };
+		45F5AEFC1B5CD72E00AEBEA8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5AEFB1B5CD72E00AEBEA8 /* TodayViewController.swift */; };
+		45F5AEFE1B5CD72E00AEBEA8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F5AEFD1B5CD72E00AEBEA8 /* MainInterface.storyboard */; };
+		45F5AF011B5CD72E00AEBEA8 /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45F5AEF41B5CD72E00AEBEA8 /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45F5AF061B5CD77000AEBEA8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5AEFB1B5CD72E00AEBEA8 /* TodayViewController.swift */; };
+		45F5AF091B5CDDCA00AEBEA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4593665E1B34288300F807B2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +99,28 @@
 			remoteGlobalIDString = 459366511B34288300F807B2;
 			remoteInfo = "iOS8-DD-ViewController";
 		};
+		45F5AEFF1B5CD72E00AEBEA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4593664A1B34288300F807B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F5AEF31B5CD72E00AEBEA8;
+			remoteInfo = TodayExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45F5AF051B5CD72E00AEBEA8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45F5AF011B5CD72E00AEBEA8 /* TodayExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		458D82531B54EF280010F3BF /* ImageTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +203,11 @@
 		45DD68F51B5616EE00812FC1 /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		45DD68FD1B562A1000812FC1 /* MyShrinkingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyShrinkingButton.swift; sourceTree = "<group>"; };
 		45F5AEEE1B5CC60500AEBEA8 /* MyKnob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKnob.swift; sourceTree = "<group>"; };
+		45F5AEF41B5CD72E00AEBEA8 /* TodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F5AEF61B5CD72E00AEBEA8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		45F5AEFA1B5CD72E00AEBEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F5AEFB1B5CD72E00AEBEA8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		45F5AEFD1B5CD72E00AEBEA8 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +225,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F5AEF11B5CD72E00AEBEA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F5AEF71B5CD72E00AEBEA8 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +263,9 @@
 			isa = PBXGroup;
 			children = (
 				459366541B34288300F807B2 /* iOS8-DD-ViewController */,
+				45F5AEF81B5CD72E00AEBEA8 /* TodayExtension */,
 				4593666A1B34288400F807B2 /* iOS8-DD-ViewControllerTests */,
+				45F5AEF51B5CD72E00AEBEA8 /* Frameworks */,
 				459366531B34288300F807B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -233,6 +275,7 @@
 			children = (
 				459366521B34288300F807B2 /* iOS8-DD-ViewController.app */,
 				459366671B34288400F807B2 /* iOS8-DD-ViewControllerTests.xctest */,
+				45F5AEF41B5CD72E00AEBEA8 /* TodayExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -349,6 +392,32 @@
 			name = Flags;
 			sourceTree = "<group>";
 		};
+		45F5AEF51B5CD72E00AEBEA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45F5AEF61B5CD72E00AEBEA8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45F5AEF81B5CD72E00AEBEA8 /* TodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				45F5AEFB1B5CD72E00AEBEA8 /* TodayViewController.swift */,
+				45F5AEFD1B5CD72E00AEBEA8 /* MainInterface.storyboard */,
+				45F5AEF91B5CD72E00AEBEA8 /* Supporting Files */,
+			);
+			path = TodayExtension;
+			sourceTree = "<group>";
+		};
+		45F5AEF91B5CD72E00AEBEA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45F5AEFA1B5CD72E00AEBEA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,10 +428,12 @@
 				4593664E1B34288300F807B2 /* Sources */,
 				4593664F1B34288300F807B2 /* Frameworks */,
 				459366501B34288300F807B2 /* Resources */,
+				45F5AF051B5CD72E00AEBEA8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				45F5AF001B5CD72E00AEBEA8 /* PBXTargetDependency */,
 			);
 			name = "iOS8-DD-ViewController";
 			productName = "iOS8-DD-ViewController";
@@ -387,12 +458,30 @@
 			productReference = 459366671B34288400F807B2 /* iOS8-DD-ViewControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		45F5AEF31B5CD72E00AEBEA8 /* TodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F5AF041B5CD72E00AEBEA8 /* Build configuration list for PBXNativeTarget "TodayExtension" */;
+			buildPhases = (
+				45F5AEF01B5CD72E00AEBEA8 /* Sources */,
+				45F5AEF11B5CD72E00AEBEA8 /* Frameworks */,
+				45F5AEF21B5CD72E00AEBEA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayExtension;
+			productName = TodayExtension;
+			productReference = 45F5AEF41B5CD72E00AEBEA8 /* TodayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4593664A1B34288300F807B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = luojie;
 				TargetAttributes = {
@@ -402,6 +491,9 @@
 					459366661B34288400F807B2 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 459366511B34288300F807B2;
+					};
+					45F5AEF31B5CD72E00AEBEA8 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -420,6 +512,7 @@
 			targets = (
 				459366511B34288300F807B2 /* iOS8-DD-ViewController */,
 				459366661B34288400F807B2 /* iOS8-DD-ViewControllerTests */,
+				45F5AEF31B5CD72E00AEBEA8 /* TodayExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -495,6 +588,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45F5AEF21B5CD72E00AEBEA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F5AF091B5CDDCA00AEBEA8 /* Images.xcassets in Resources */,
+				45F5AEFE1B5CD72E00AEBEA8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -509,6 +611,7 @@
 				458D82541B54EF280010F3BF /* ImageTextViewController.swift in Sources */,
 				45ADFB601B4A487B004FCD31 /* MasterCollectionViewController.swift in Sources */,
 				4593665A1B34288300F807B2 /* ViewController.swift in Sources */,
+				45F5AF061B5CD77000AEBEA8 /* TodayViewController.swift in Sources */,
 				45F5AEEF1B5CC60500AEBEA8 /* MyKnob.swift in Sources */,
 				459366781B342B5600F807B2 /* TabBarPushAnimation.swift in Sources */,
 				45ADFAC11B48FD06004FCD31 /* ScrollPagingViewController.swift in Sources */,
@@ -529,6 +632,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45F5AEF01B5CD72E00AEBEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F5AEFC1B5CD72E00AEBEA8 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -536,6 +647,11 @@
 			isa = PBXTargetDependency;
 			target = 459366511B34288300F807B2 /* iOS8-DD-ViewController */;
 			targetProxy = 459366681B34288400F807B2 /* PBXContainerItemProxy */;
+		};
+		45F5AF001B5CD72E00AEBEA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F5AEF31B5CD72E00AEBEA8 /* TodayExtension */;
+			targetProxy = 45F5AEFF1B5CD72E00AEBEA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -698,6 +814,32 @@
 			};
 			name = Release;
 		};
+		45F5AF021B5CD72E00AEBEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TodayExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45F5AF031B5CD72E00AEBEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodayExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -724,6 +866,15 @@
 			buildConfigurations = (
 				459366751B34288400F807B2 /* Debug */,
 				459366761B34288400F807B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F5AF041B5CD72E00AEBEA8 /* Build configuration list for PBXNativeTarget "TodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F5AF021B5CD72E00AEBEA8 /* Debug */,
+				45F5AF031B5CD72E00AEBEA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

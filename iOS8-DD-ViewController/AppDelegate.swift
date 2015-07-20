@@ -40,6 +40,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    
+    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
+        let scheme = url.scheme
+        let host = url.host
+        if scheme == "coffeetime" {
+            if let min = host?.toInt() {
+                print("got \(min) from our today extension \n")
+                return true
+            }
+        }
+        return false
+    }
 
 
 }
